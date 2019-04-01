@@ -1,0 +1,20 @@
+@font-face
+{
+	font-family:myFirstFont;
+	font-weight:400;
+	src: url(Amaranth-Regular.otf);
+}
+.para1
+{
+	font-family:myFirstFont;
+}
+@font-face
+{
+	font-family:WebFont;
+	font-weight:500;
+	src: url(Amaranth-Bold.otf);
+}
+.para2
+{
+	font-family:WebFont;
+}

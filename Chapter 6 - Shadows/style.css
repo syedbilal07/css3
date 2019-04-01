@@ -1,0 +1,72 @@
+h2
+{
+	color:white;
+	text-shadow:2px 2px 5px #000000, 2px 4px green;
+}
+.box-shadow
+{
+	width:200px;
+	height:200px;
+	background-color: yellow;
+	box-shadow:10px 10px 5px grey;
+}
+#boxshadow
+{
+	position:relative;
+	box-shadow:1px 2px 4px rgba(0,0,0,0.5);
+	height:800px;
+	width:100%;
+	padding:20px;
+	background:white;
+}
+img
+{
+	border-style:inset;
+	border: 1px solid grey;
+	
+}
+#boxshadow::after
+{
+	content:'';
+	position:absolute;
+	-moz-box-shadow:0 15px 20px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow:0 15px 20px rgba(0, 0, 0, 0.5);
+	-o- box-shadow:0 15px 20px rgba(0, 0, 0, 0.5);
+	box-shadow:0 15px 20px rgba(0, 0, 0, 0.5);
+	width:70%;
+	z-index:-1;
+	bottom:0;
+	left:15%;
+	height:100px;
+}
+.card
+{
+	width:250px;
+	box-shadow:0 4px 8px rgba(0,0,0,0.3),0 6px 20px rgba(0,0,0,0.19);
+	text-align:center;
+	display:inline-block;
+}
+.header
+{
+	color:white;
+	background-color:#4CAF50;
+	font-size:40px;
+	padding:10px;
+
+}
+.container
+{
+	padding:10px;
+}
+.image-card
+{
+	width:270px;
+	text-align:center;
+	box-shadow:0 4px 8px rgba(0,0,0,0.6),0 14px 16px rgba(0,0,0,0.3);
+}
+.header1
+{
+	
+	color:white;
+	padding:10px;
+}

@@ -1,0 +1,15 @@
+html
+{
+	background:url(flower.jpg);
+	background-size:cover;
+}
+
+.background
+{
+	background-image:url(flower.gif),url(paper.gif);
+	background-position:right bottom, left top;
+	background-repeat:no-repeat,repeat;
+	width:100%;
+	height:200px;
+	background-size:contain;
+}

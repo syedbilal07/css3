@@ -1,0 +1,36 @@
+.flex-container
+{
+	display:flex;
+	width: 300px;
+    height: 250px;
+	background-color:lightgrey;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap:wrap-reverse;
+    align-content:space-around;
+}
+.flex-items
+{
+	background-color:cornflowerblue;
+	width: 100px;
+    height: 100px;
+    margin: 10px;
+   
+}
+.flex-items:first-child
+{
+    margin:auto;
+}
+.item1
+{
+    flex:2;
+}
+.item2
+{
+    flex:1;
+}
+.item3
+{
+    flex:1;
+}

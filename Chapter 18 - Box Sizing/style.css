@@ -1,0 +1,27 @@
+.div1
+{
+	height:100px;
+	width:300px;
+	border:1px solid blue;
+}
+.div2
+{
+	height:100px;
+	width:300px;
+	padding:50px;
+	border:1px solid red;
+}
+.div3
+{
+	height:100px;
+	width:300px;
+	border:1px solid blue;
+}
+.div4
+{
+	height:100px;
+	width:300px;
+	padding:50px;
+	border:1px solid red;
+	box-sizing:border-box;
+}

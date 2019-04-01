@@ -1,0 +1,65 @@
+.translate
+{
+	width:300px;
+	height:100px;
+	background-color:silver;
+	transform:translate(50px,100px); 
+}
+div
+{
+	width:300px;
+	height:100px;
+	background-color:lightgreen;
+}
+.rotate
+{
+	width:300px;
+	height:100px;
+	background-color:lightgreen;
+	transform:rotate(20deg);
+	transform-origin:30% 40%;
+}
+.scale
+{
+	width:300px;
+	height:100px;
+	background-color:lightgreen;
+	transform:scale(2,3);
+	margin-left:200px;
+}
+.scale-decrease
+{
+	width:300px;
+	height:100px;
+	background-color:lightgreen;
+	transform:scale(0.5,0.5);
+	margin-left:200px;
+}
+.skew-x
+{
+	width:300px;
+	height:100px;
+	background-color:lightgreen;
+	transform:skewX(20deg);
+}
+.skew-y
+{
+	width:300px;
+	height:100px;
+	background-color:lightgreen;
+	transform:skewY(20deg);
+}
+.skew
+{
+	width:300px;
+	height:100px;
+	background-color:lightgreen;
+	transform:skew(20deg,10deg);
+}
+.matrix
+{
+	width:300px;
+	height:100px;
+	background-color:lightblue;
+	transform:matrix(1,-0.3,0,2,0,0);
+}

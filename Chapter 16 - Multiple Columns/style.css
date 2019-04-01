@@ -1,0 +1,19 @@
+.columns
+{
+	column-count:3;
+	-moz-column-count:3; 
+	column-gap:40px;
+	-moz-column-gap:40px;
+	column-rule-style:solid;
+	-moz-column-rule-style:solid;
+	column-rule-width:5px;
+	-moz-column-rule-width:5px;
+	column-rule-color:blue;
+	-moz-column-rule-color:blue;
+	column-width:100px;
+	-moz-column-width:100px;
+}
+h1
+{
+	column-span:all;
+}

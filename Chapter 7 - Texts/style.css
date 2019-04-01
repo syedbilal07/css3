@@ -1,0 +1,42 @@
+.para1
+{
+	width:100px;
+	border:1px solid grey;
+	overflow:hidden;
+	text-overflow:clip;
+	white-space: nowrap; 
+}
+.para2
+{
+	width:100px;
+	border:1px solid grey;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap; 
+}
+.para2:hover
+{
+	overflow:visible;
+}
+.para3
+{
+	width:100px;
+	border:1px solid grey;
+	overflow:hidden;
+	word-wrap:break-word;
+}
+.para4
+{
+	width:100px;
+	border:1px solid grey;
+	overflow:hidden;
+	word-break:keep-all;
+}
+.para5
+{
+	width:100px;
+	border:1px solid grey;
+	overflow:hidden;
+	word-break:break-all;
+
+}

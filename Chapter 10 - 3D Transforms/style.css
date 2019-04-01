@@ -1,0 +1,46 @@
+.rotate-x
+{
+	height:100px;
+	width:300px;
+	background-color:lightgreen;
+	transform:rotateX(160deg);
+	transform-origin: 20% 60%;
+}
+.rotate-y
+{
+	height:100px;
+	width:300px;
+	background-color:silver;
+	transform:rotateY(160deg);
+}
+.rotate-z
+{
+	height:100px;
+	width:300px;
+	background-color:lightblue;
+	transform:rotateZ(160deg);
+}
+.div1
+{
+	border:1px solid black;
+	width:300px;
+	height:200px;
+}
+.div2
+{
+	background-color:red;
+	position:absolute;
+	padding:50px;
+	border: 1px solid black;
+	transform: rotateY(60deg);
+	transform-style: preserve-3d;
+	perspective:100px; 
+	perspective-origin: 10% 10%;
+}
+.div3
+{
+	padding:40px;
+	background-color:yellow;
+	position:absolute;
+	transform: rotateY(-30deg);
+}

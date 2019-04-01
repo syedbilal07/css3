@@ -1,0 +1,101 @@
+.color
+{
+	height:100px;
+	width:100px;
+	animation-name:color;
+	animation-duration:3s;
+	background-color: red;
+	animation-timing-function:ease;
+}
+@keyframes color
+{
+	from {background-color:red;}
+	to {background-color:yellow;}
+}
+.color1
+{
+	height:100px;
+	width:100px;
+	animation-name:colors;
+	animation-duration:5s;
+	background-color:blue;
+	animation-timing-function:ease-in;
+}
+@keyframes colors
+{
+	0% {background-color:blue;}
+	25% {background-color:yellow;}
+	50% {background-color:red;}
+	75% {background-color:pink;}
+	100% {background-color:green;}
+	
+}
+.position
+{
+	height:100px;
+	width:100px;
+	background-color:green;
+	animation-name:change;
+	animation-delay:2s;
+	animation-duration:6s;
+	animation-iteration-count:infinite;
+	animation-play-state:running;
+	position:relative;
+	animation-timing-function:ease-out;
+	
+}
+@keyframes change
+{
+	0% {background-color:green; left:0px;top:0px;}
+	25% {background-color:yellow; left:200px;top:0px;}
+	50% {background-color:red;left:200px;top:200px;}
+	75% {background-color:pink;left:0px;top:200px;}
+	100% {background-color:green;left:0px;top:0px;}
+}
+.position1
+{
+	height:100px;
+	width:100px;
+	background-color:green;
+	animation-name:change;
+	animation-delay:2s;
+	animation-duration:6s;
+	animation-iteration-count:infinite;
+	animation-play-state:running;
+	animation-direction:reverse;
+	position:relative;
+	animation-timing-function:ease-in-out;
+}
+@keyframes change
+{
+	0% {background-color:green; left:0px;top:0px;}
+	25% {background-color:yellow; left:200px;top:0px;}
+	50% {background-color:red;left:200px;top:200px;}
+	75% {background-color:pink;left:0px;top:200px;}
+	100% {background-color:green;left:0px;top:0px;}
+}
+.position2
+{
+	height:100px;
+	width:100px;
+	background-color:green;
+	animation-name:change;
+	animation-delay:2s;
+	animation-duration:6s;
+	animation-iteration-count:infinite;
+	animation-play-state:running;
+	animation-direction:alternate;
+	position:relative;
+	animation-timing-function:linear;
+	
+	
+}
+@keyframes change
+{
+	0% {background-color:green; left:0px;top:0px;}
+	25% {background-color:yellow; left:200px;top:0px;}
+	50% {background-color:red;left:200px;top:200px;}
+	75% {background-color:pink;left:0px;top:200px;}
+	100% {background-color:green;left:0px;top:0px;}
+	
+}

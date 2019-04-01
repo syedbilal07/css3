@@ -1,0 +1,26 @@
+.width
+{
+	height:200px;
+	width:100px;
+	overflow:auto;
+	resize:horizontal;
+	border:1px solid pink;
+}
+.height
+{
+	height:200px;
+	width:100px;
+	overflow:auto;
+	resize:vertical;
+	border:1px solid blue;
+}
+.both
+{
+	height:200px;
+	width:100px;
+	overflow:auto;
+	resize:both;
+	border:1px solid red;
+	outline:1px solid black;
+	outline-offset:20px;
+}

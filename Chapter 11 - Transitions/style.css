@@ -1,0 +1,124 @@
+.width
+{
+	height:100px;
+	width:100px;
+	background-color:red;
+	transition:width 2s;
+}
+.width:hover
+{
+	width:200px;
+}
+.height
+{
+	height:100px;
+	width:100px;
+	background-color:blue;
+	transition:height 2s;
+}
+.height:hover
+{
+	height:200px;
+}
+.height-width
+{
+	height:100px;
+	width:100px;
+	background-color:green;
+	transition:height 2s, width 2s;
+}
+.height-width:hover
+{
+	width:200px;
+	height:200px;
+}
+.div1
+{
+	height:100px;
+	width:100px;
+	background-color:pink;
+	transition:width 2s;
+	transition-timing-function:linear;
+}
+.div1:hover
+{
+	width:200px;
+}
+.div2
+{
+	height:100px;
+	width:100px;
+	background-color:yellow;
+	transition:width 2s;
+	transition-timing-function:ease;
+	transition-delay:2s;
+}
+.div2:hover
+{
+	width:200px;
+}
+.div3
+{
+	height:100px;
+	width:100px;
+	background-color:purple;
+	transition:width 2s;
+	transition-timing-function:ease-in;
+}
+.div3:hover
+{
+	width:200px;
+}
+.div4
+{
+	height:100px;
+	width:100px;
+	background-color:green;
+	transition:width 2s;
+	transition-timing-function:ease-out;
+}
+.div4:hover
+{
+	width:200px;
+}
+.div5
+{
+	height:100px;
+	width:100px;
+	background-color:blue;
+	transition:width 2s;
+	transition-timing-function:ease-in-out;
+}
+.div5:hover
+{
+	width:200px;
+}
+.transition-transformation
+{
+	height:100px;
+	width:100px;
+	background-color:pink;
+	transition:width 2s, height 2s, transform 2s;
+}
+.transition-transformation:hover
+{
+	width:200px;
+	height:200px;
+	transform:rotate(360deg);
+}
+.transition
+{
+	height:100px;
+	width:100px;
+	background-color:green;
+	transition-property:width,height,transform;
+	transition-delay:1s;
+	transition-timing-function:ease-in-out;
+	transition-duration:2s;
+}
+.transition:hover
+{
+	width:200px;
+	height:200px;
+	transform:skew(2,3);
+}

@@ -1,0 +1,56 @@
+.green-rounded-corner
+{
+	border-radius:30px;
+	background-color:#73AD21;
+	width:30%;
+	height:100px;
+	padding:20px;
+}
+.green-rounded-corner1
+{
+	border-radius:30px;
+	width:30%;
+	height:100px;
+	padding:20px;
+	border: 2px solid #73AD43;
+}
+.four-corners
+{
+	border-radius:80px 50px 70px 64px;
+	width:30%;
+	height:100px;
+	padding:20px;
+	border: 2px solid #73AD65;
+}
+.three-corners
+{
+	border-radius:60px 80px 100px;
+	width:30%;
+	height:100px;
+	padding:20px;
+	border: 2px solid #73AD65;
+}
+.two-corners
+{
+	border-radius:60px 80px;
+	width:30%;
+	height:100px;
+	padding:20px;
+	border: 2px solid #73AD89;
+}
+.one-corner
+{
+	border-radius:80px;
+	width:30%;
+	height:100px;
+	padding:20px;
+	border: 2px solid #73AE96;
+}
+.ellip-corner
+{
+	border-radius:15px/50px;
+	background-color:#73AD21;
+	width:30%;
+	height:100px;
+	padding:20px;
+}
